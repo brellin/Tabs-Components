@@ -17,7 +17,6 @@ class TabLink {
     // this.element;
     this.element = element;
     const tabsLinks = document.querySelector('.tabs-links');
-    console.log(tabsLinks)
     tabsLinks.append(this.element);
     // Get the custom data attribute on the Link
     // this.data;
